@@ -8,14 +8,15 @@ Internet speed test plugin to integrate it in your app whenever you want.
 
 ```yaml
 dependencies:
-  internet_speed_test: ^1.5.0
+  i_internet_speed_test: ^0.1.0
 ```
 
 ### Example
 
 ```dart
 
-  import 'package:internet_speed_test/internet_speed_test.dart';
+  import 'package:i_internet_speed_test/internet_speed_test.dart';
+  import 'package:i_internet_speed_test/callbacks_enum.dart';
 
   final internetSpeedTest = InternetSpeedTest();
 
@@ -60,7 +61,10 @@ You can also configure your test server URL
 
 ```dart
 
-  import 'package:internet_speed_test/internet_speed_test.dart';
+  import 'package:i_internet_speed_test/internet_speed_test.dart';
+  import 'package:i_internet_speed_test/callbacks_enum.dart';
+
+  ...
 
   final internetSpeedTest = InternetSpeedTest();
 
@@ -110,6 +114,7 @@ http://ipv4.ikoula.testdebit.info/
 
 ### Contributors
 
+This packages is just an improvement made by [ajomuch92](https://github.com/ajomuch92) based on internet_speed_test package.
 The major contributor that made this package better for the iOS platform is [Akshat Sharma](https://github.com/aks3800) so a huge shoutout to him!
 
 ### Platforms
