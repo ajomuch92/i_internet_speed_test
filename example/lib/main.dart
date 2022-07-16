@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:internet_speed_test/internet_speed_test.dart';
-import 'package:internet_speed_test/callbacks_enum.dart';
+import 'package:i_internet_speed_test/internet_speed_test.dart';
+import 'package:i_internet_speed_test/callbacks_enum.dart';
 
 void main() => runApp(MyApp());
 
