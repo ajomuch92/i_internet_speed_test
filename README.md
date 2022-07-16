@@ -114,7 +114,7 @@ http://ipv4.ikoula.testdebit.info/
 
 ### Contributors
 
-This packages is just an improvement made by [ajomuch92](https://github.com/ajomuch92) based on internet_speed_test package.
+This packages is just an improvement made by [ajomuch92](https://github.com/ajomuch92) based on [internet_speed_test](https://pub.dev/packages/internet_speed_test) package.
 The major contributor that made this package better for the iOS platform is [Akshat Sharma](https://github.com/aks3800) so a huge shoutout to him!
 
 ### Platforms
