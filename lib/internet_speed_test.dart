@@ -1,8 +1,9 @@
+library i_internet_speed_test;
+
 import 'dart:async';
 
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:internet_speed_test/callbacks_enum.dart';
+import 'package:i_internet_speed_test/callbacks_enum.dart';
 import 'package:tuple/tuple.dart';
 
 typedef void CancelListening();
