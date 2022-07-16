@@ -114,7 +114,7 @@ http://ipv4.ikoula.testdebit.info/
 
 ### Contributors
 
-This packages is just an improvement made by [ajomuch92](https://github.com/ajomuch92) based on [internet_speed_test](https://pub.dev/packages/internet_speed_test) package.
+This packages is just an improvement made by [ajomuch92](https://github.com/ajomuch92) based on [internet_speed_test](https://pub.dev/packages/internet_speed_test) package to make it compatible with latest Flutter version.
 
 ### Platforms
 
