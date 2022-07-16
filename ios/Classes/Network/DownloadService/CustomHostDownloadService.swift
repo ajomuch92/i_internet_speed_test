@@ -5,7 +5,6 @@
 //  Created by dhaurylenka on 2/5/18.
 //  Copyright © 2018 Exadel. All rights reserved.
 //
-
 import Foundation
 
 class CustomHostDownloadService: NSObject, SpeedService {
@@ -33,7 +32,6 @@ extension CustomHostDownloadService: URLSessionDownloadDelegate {
     
     func urlSession(_ session: URLSession, didBecomeInvalidWithError error: Error?) {
         if error != nil {
-            print("url session1")
             self.final(.error(NetworkError.requestFailed))
             responseDate = nil
         }
@@ -41,11 +39,6 @@ extension CustomHostDownloadService: URLSessionDownloadDelegate {
     
     func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
         if error != nil {
-            print(error.debugDescription)
-            print("task is \(task.error.debugDescription)")
-            
-            print("error is \(error.debugDescription)")
-            print("url session2")
             self.final(.error(NetworkError.requestFailed))
             responseDate = nil
         }
